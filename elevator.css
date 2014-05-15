@@ -1,0 +1,22 @@
+body {
+  font: sans-serif;
+}
+#building {
+  width: 400px;
+  margin: 20px auto;
+}
+.floor,
+.floor * {
+  height: 20px;
+  /*background: pink;*/
+}
+.waiting,
+.elevator,
+.arrived {
+  float: left;
+  width: 100px;
+  margin: 2px 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+}
