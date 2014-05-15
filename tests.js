@@ -9,3 +9,8 @@ test('isEven()', function () {
   ok(!isEven(1), 'One is not an even number');
   ok(!isEven(-7), 'Neither is negative seven');
 });
+
+test('assertions', function () {
+  // equals(<expected value, actual value>)
+  equal(1, 1, 'one equals one');
+});
